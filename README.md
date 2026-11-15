@@ -4,7 +4,7 @@
 
 It is derived from Jan Simon's `DataHash` (File Exchange 31272, version 1.7.1 of 2019, hash version 4) and gives exactly the hash `DataHash(data)` gave with its defaults (MD5, hex). Everything else `DataHash` did is gone: other digests, output formats, file and raw-byte input, the options.
 
-The rig repos (`antenna-ephys-experiments`, `antenna-ldv-experiments`, `antenna-twop-experiments`) take this repo as the submodule `ext/DataHash` and name each stimulus's trial folder by its hash.
+The rig repos (`antenna-ephys-experiments`, `antenna-ldv-experiments`, `antenna-twop-experiments`) take this repo as the submodule `ext/structhash` and name each stimulus's trial folder by its hash.
 
 ## Use
 

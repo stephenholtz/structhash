@@ -1,0 +1,4574 @@
+[
+{
+"func": "stims.piezo.makeEmpty",
+"args": {
+"rate": 80000,
+"duration_s": 2
+},
+"hash": "679dff71f3fec7d4cb4cc0202f95212f",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 10,
+"dur_pre_ms": 100,
+"dur_step_ms": 10,
+"dur_post_ms": 100
+},
+"hash": "49e7ae9a01c4f8cd240012ed644e811f",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 2,
+"dur_pre_ms": 100,
+"dur_step_ms": 1,
+"dur_post_ms": 100
+},
+"hash": "65b7e9d5d975ba828eb0c60b6beb63c7",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -10,
+"dur_pre_ms": 100,
+"dur_step_ms": 1,
+"dur_post_ms": 100
+},
+"hash": "d75bc561bfbea1731c68f500e62debfa",
+"column": false
+},
+{
+"func": "stims.ephys.currentRamp",
+"args": {
+"gen_rate": 80000,
+"ramp_vals_pA": [
+0,
+25
+],
+"dur_pre_ms": 100,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 100
+},
+"hash": "56dc1c380d6b98bda6688968e21df81b",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -2,
+"dur_pre_ms": 100,
+"dur_step_ms": 1,
+"dur_post_ms": 100
+},
+"hash": "0727ce81bdcea4a5873ace515a5be187",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 10,
+"dur_pre_ms": 100,
+"dur_step_ms": 1,
+"dur_post_ms": 100
+},
+"hash": "d75fdc10fcd77539c16f37a7e79f1fc4",
+"column": false
+},
+{
+"func": "stims.Cmd.addEphysAccessTest",
+"args": {
+"step_val_pA": -5,
+"pre_step_ms": 45,
+"dur_step_ms": 5,
+"post_step_ms": 75
+},
+"hash": "854b5c8a1282e5dff127279068a188c0",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -16.700000000000003,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "1c25d9c34e5b874698d7f35d1d7513ce",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -8,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "54aa8a52b039322b69a1be5cd774808a",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -126.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "fffbb52982b9913e9595622d763da67b",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 12,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "12cf1ce7a23ba6f2edd5eabb094f112b",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 4,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "3afd31a58dd9f0ee99bdc92fff7985ab",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -56.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "9746ae85b08b42e1a70d4d5bc8713d15",
+"column": false
+},
+{
+"func": "stims.ephys.membraneTest",
+"args": {
+"gen_rate": 80000,
+"step_amp_mV": 5,
+"dur_step_ms": 50
+},
+"hash": "ee40b2b59319aeefe0541f715362438b",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -15,
+"dur_pre_ms": 100,
+"dur_step_ms": 1,
+"dur_post_ms": 100
+},
+"hash": "7458f3e72dfad8bf24a85e333df65031",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 15,
+"dur_pre_ms": 100,
+"dur_step_ms": 1,
+"dur_post_ms": 100
+},
+"hash": "71b5c2df0ca9b6a7db63154cddfd5dc3",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -12,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "ab3bc13d1a2aaec1972a2d9234eaa525",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 0,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "b9eaacca903124d4ff2208f7f93d4007",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -6.700000000000003,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "6d7d20e00a0bcf80d372d760129f6268",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -4,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "ea58b0b6e76422baebe2a5b13811d663",
+"column": false
+},
+{
+"func": "stims.Cmd.addEphysAccessTest",
+"args": {
+"step_val_pA": -5,
+"pre_step_ms": 25,
+"dur_step_ms": 25,
+"post_step_ms": 25
+},
+"hash": "da491ec90ffe464ec2ceddfb7ea629bc",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 8,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "90f7edd78330b3b741699a6a721801f7",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -26.700000000000003,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "6497371d2ee9e1f660542e15931cc78a",
+"column": false
+},
+{
+"func": "stims.ephys.currentRamp",
+"args": {
+"gen_rate": 80000,
+"ramp_vals_pA": [
+-5,
+15
+],
+"dur_pre_ms": 100,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 100
+},
+"hash": "b792bec21829961a18070039dc849819",
+"column": false
+},
+{
+"func": "stims.Cmd.addEphysAccessTest",
+"args": {
+"step_val_pA": -2,
+"pre_step_ms": 45,
+"dur_step_ms": 5,
+"post_step_ms": 75
+},
+"hash": "5c7dbbe72bd2c5d8ff75b84720227f01",
+"column": false
+},
+{
+"func": "stims.ephys.currentRamp",
+"args": {
+"gen_rate": 80000,
+"ramp_vals_pA": [
+-5,
+25
+],
+"dur_pre_ms": 100,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 100
+},
+"hash": "10ed45c497ce96b3d35f2faeeaa15bab",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 2,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "f2dcc41d5ba57c1d024f3d303ed65266",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 5,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "b3d3ac260fdaf0c7db15b1b400d45162",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 12.5,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "8fa2b1144b9b761fc76aa6e780b15b8d",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -1,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "6a15aec950a2df2661296fb0a1618b64",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 10,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "8c019fa92a00f0c6fa4ac0c6348ca6f3",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -2,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "e6607d2538453bad3289b5cc80a17e47",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 60,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "3db36bb3b6d3fee7b8859c463df24063",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -5,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "78828779100b8e7a7a4a4d2432792386",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 1,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "1e5286981793e93637cc37c917d703ed",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 0,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "38e3f9bc1464972bb983c644b2525ae9",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_ramp",
+"args": {
+"gen_rate": 80000,
+"ramp_vals_pA": [
+-20,
+20
+],
+"dur_pre_ms": 100,
+"dur_ramp_ms": 4000,
+"dur_post_ms": 100
+},
+"hash": "8e925d6a4f8edd0c49c9d0e20a5383e0",
+"column": true
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 2,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "8256a5f671e45953b00f6f5a0637d527",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 40,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "2d9154b583277612e9389a6ca7773fba",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 10,
+"dur_pre_ms": 50,
+"dur_step_ms": 1,
+"dur_post_ms": 50
+},
+"hash": "e13eea65087c91d15fb65bbb2631d263",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -5,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "529cbba76b15c9665e53b661f3fc5a3a",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 20,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "020ad168570846923507f40b61583519",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 15,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "a84117f09f32dbf812a69792b3597574",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 80,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "d57a828659b5d7b2d3a50c028e53ffa2",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -10,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "8104793292d4c71db81ac5c41dec07c7",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -2,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "17817f42e8193c467330126793a10249",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -20,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "ddc962862efcbe21c6a680d9b4b66db7",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 2,
+"dur_pre_ms": 50,
+"dur_step_ms": 1,
+"dur_post_ms": 50
+},
+"hash": "1abe54c71057a425b1fef073cb38b0b2",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -10,
+"dur_pre_ms": 50,
+"dur_step_ms": 1,
+"dur_post_ms": 50
+},
+"hash": "99153a5c7f790db1a17f3d73c167dbce",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -80,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "a680d5bce2317f4ce099b08b426e9344",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 10,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "7e5967e3005ceaa7ece7f79c3e2475b2",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -30,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "c120c1e2396720cde392a21522e9130c",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 7.5,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "2ac3544053c95e25eb31ee5186d26d54",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -60,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "766721b716e4528c2189b92eb6782e04",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 0,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "643dd4050c3b9bcaa16a7216dd182212",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -2,
+"dur_pre_ms": 50,
+"dur_step_ms": 1,
+"dur_post_ms": 50
+},
+"hash": "64f5b6d1c3b69f5e32636e339f416829",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -40,
+"dur_pre_ms": 100,
+"dur_step_ms": 400,
+"dur_post_ms": 100
+},
+"hash": "759301363f57252ad2c97afefdaad986",
+"column": false
+},
+{
+"func": "stim_objs.ephys.current_steps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 5,
+"dur_pre_ms": 50,
+"dur_step_ms": 100,
+"dur_post_ms": 50
+},
+"hash": "5fefc7181cf45ef6fc94e8b304da9a31",
+"column": false
+},
+{
+"func": "stim_objs.ephys.voltage_ramp",
+"args": {
+"gen_rate": 80000,
+"ramp_vals_mV": [
+-60,
+60
+],
+"dur_pre_ms": 100,
+"dur_ramp_ms": 8000,
+"dur_post_ms": 100
+},
+"hash": "8c8204258027c92af63513433880a9be",
+"column": true
+},
+{
+"func": "stim_objs.ephys.current_ramp",
+"args": {
+"gen_rate": 80000,
+"ramp_vals_pA": [
+-10,
+10
+],
+"dur_pre_ms": 100,
+"dur_ramp_ms": 4000,
+"dur_post_ms": 100
+},
+"hash": "1fbc8315924350290564b5f8a4f0da92",
+"column": true
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -118,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "d7a3eeed97a4772100a433f790fcb558",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -28,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "48fdf46a99d002a074feec5421270d1f",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -18,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "cc3f9dd0ded5ba7f6ae08fa1f1d958ee",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 32,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "3fa140359dfb540a85620e3403bad5ad",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 2,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "1040bbca4c82a6e16160f9f20dbef6fd",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -138,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "2e7c83df4ec8a1177d44486ab3930f28",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 12,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "c808bc053481891f4aee75e4f213d483",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -128,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "e141fd9cf6e02bfb513e67ca1f07f322",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -48,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "90a33999a037c997c693be14ec20e2e4",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 42,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "913bd0c34fc4afdae93cc8d87bbce60f",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -8,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "ce7df9b56bc97e94a4a729d34e4cb122",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -108,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "f36d18cb55c71c1ffe223ab866f027cb",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -58,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "be67b3a6ce2ce962c4a484f5d5932830",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -68,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "207aec15b821f577eb255ec9c29d3dc8",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 22,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "db1eee9da7f683d3c3529fd405ad6b7f",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -88,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "b63352d1b87add9ceff18e5e8aa437c6",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -98,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "daf022df7954583eb1f7bead19604bb8",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -38,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "0726b7132a44d11e3de7ecadcfa8be9e",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -78,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "5ac29807f152a00ddc5dde97d36bb56a",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -6,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "dbcfa2d8116cd8e55f9e73df8c0c8c3b",
+"column": false
+},
+{
+"func": "stims.ephys.currentRamp",
+"args": {
+"gen_rate": 80000,
+"ramp_vals_pA": [
+-4,
+10
+],
+"dur_pre_ms": 100,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 100
+},
+"hash": "bb79530339294ac15034fe0a04b8652a",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 6,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "c8d0022a851144a7f15ff4ca65305ece",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 2,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "961dc8841f73f4902dbca6aecebbb069",
+"column": false
+},
+{
+"func": "stims.ephys.currentRamp",
+"args": {
+"gen_rate": 80000,
+"ramp_vals_pA": [
+-5,
+10
+],
+"dur_pre_ms": 100,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 100
+},
+"hash": "211488a6afa464cd3c209f6857a2d20d",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": -2,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "7d35dca9fa6425c5da0848c57c2c14a3",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 10,
+"dur_pre_ms": 200,
+"dur_step_ms": 800,
+"dur_post_ms": 200
+},
+"hash": "78369c5f1b62141bcf709a4720d5c198",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 23.299999999999997,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "f94a586a3ef5fb022c48f3f547df3ba6",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -86.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "c38fc1608611f2f26d95226be59662c8",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -76.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "02496bbc84f4ef8538e0fb1415423ff8",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -146.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "dbeefcfa5f7bbdc8a7ff5ce7178af9fe",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -136.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "5452fed0b5fe3a9da220bc22f04d96a7",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -46.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "13a2392222e71d8720aec0f09731d8a3",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -116.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "5edd9f9eb52dc274f75e910dd86fe3ef",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 33.3,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "25cd696e232613f0a3af6148e0f5b624",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -36.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "a62e3317592f82db150a3c1a272438e2",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 3.299999999999997,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "9da85cd5952ae808bfbc40f1c6ad4737",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 13.299999999999997,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "bc3534a80a4bb07b325faa56ba463e7b",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -66.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "2a5225e0c86aaba0b1acc6aca306ffae",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -96.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "906406cfe526565c73af9e696d4203d8",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -106.7,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "374c2e7770151b08daedeefa5b2b74c2",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -105,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "19401858a7b8e204d844eee43529d016",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -145,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "30a9f38db16bac9227cc65ba32614985",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -125,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "8da1a85bf1818f8c6673bf553472d4bd",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -115,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "0bb37a201bfe0297569d8424cdab35fb",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -85,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "a6f985b3400412a421ee5a66a940a950",
+"column": false
+},
+{
+"func": "stims.ephys.voltageRamp",
+"args": {
+"gen_rate": 80000,
+"ramp_vals_mV": [
+0,
+40
+],
+"dur_pre_ms": 100,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 100
+},
+"hash": "3a8218881e9ac79593bd0fcc77e858ec",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -15,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "57ad5f024e9048de9d96ae2ccb05875c",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 25,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "fea3d7c915c0233480821eae93418b7b",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 15,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "c0ace8183247b4b9a7a4b4eeb61735fe",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -55,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "ee534944d4e1e5960fefd65e96318fcb",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 35,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "8f2f53eb16fd84f47ac195ee25537a44",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -135,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "b438fe148bd833a649295ad1025e2438",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -95,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "26db7a8d3f1921422fa02e4926f2aa91",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -5,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "c947e2c7a5d104411607b212e12c9f0e",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -75,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "cb631112f7c5390e3b618bc1dd82f4e9",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -45,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "0e2ce5d078d88bd70b2039515f6a6190",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 5,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "be96cb6a4d20f536d9286c186b53e3ea",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -35,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "a6870ac1f9e5659cb6c2127e9de60212",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -65,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "ae4eccfdf06f51a4fa75e06c318c16a9",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -25,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "032de420bcea70386826b03aa353c0d2",
+"column": false
+},
+{
+"func": "stims.ephys.currentRamp",
+"args": {
+"gen_rate": 80000,
+"ramp_vals_pA": [
+0,
+10
+],
+"dur_pre_ms": 100,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 100
+},
+"hash": "ed90f4dbd9c7fb11a801d4f986017744",
+"column": false
+},
+{
+"func": "stims.Cmd.addEphysAccessTest",
+"args": {
+"step_val_pA": -10,
+"pre_step_ms": 45,
+"dur_step_ms": 5,
+"post_step_ms": 45
+},
+"hash": "18e36ae5fc03980c97e10b00876a1cb5",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 2,
+"dur_pre_ms": 100,
+"dur_step_ms": 10,
+"dur_post_ms": 100
+},
+"hash": "85b09b995e2dd6833940f5ba5332cb06",
+"column": false
+},
+{
+"func": "stims.ephys.currentSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_pA": 6,
+"dur_pre_ms": 100,
+"dur_step_ms": 10,
+"dur_post_ms": 100
+},
+"hash": "f9601d98fdc47f948282a496309ec8e6",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -112,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "d1a1df634475b46c12c1f481db19640f",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -12,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "584a916b6370feb650be039828d3b195",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -132,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "590210cf2db06261fb715e3cdc026ffa",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 48,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "7519e415b3af5624520dc67eef587ac6",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -102,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "1a5ffbe0e7c30b7b6c0c2690a762a112",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -32,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "b0a317b4294bcf2143d8f1bb0a8ebfc3",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -62,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "8c59cec92d80b845d71daa7addf04c51",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 8,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "13236bd5f9f619c5f87e2161a519f48a",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 18,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "9dd250b158a694e0a1f1ec3e75fcf425",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 28,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "7e18d5044923cf8b6aa43b5cc2843889",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -52,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "f19506653693625b3b5220d139ef5d02",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -22,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "db58698c7c92c19b46b6048424fc28b8",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -122,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "3a70773aa62909e1038b691f8f7bd9d5",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -42,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "f259fb083ca70a10322dd2ff462bb1d9",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -92,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "e88c60d19c782e3dd78242e156872476",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -82,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "5dde005b06e5c1cbcbb58d70bc7c81d6",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": 38,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "2df8d5a59ec19f88394e2cb09f2af47c",
+"column": false
+},
+{
+"func": "stims.ephys.voltageSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_mV": -72,
+"dur_pre_ms": 100,
+"dur_step_ms": 200,
+"dur_post_ms": 100
+},
+"hash": "f0eeceac228c95d989a9067d83d2d830",
+"column": false
+},
+{
+"func": "stims.makeEmpty",
+"args": {
+"rate": 100000,
+"duration_s": 10
+},
+"hash": "02029591340e4f53b53e3a18d56fae63",
+"column": false
+},
+{
+"func": "stims.makeEmpty",
+"args": {
+"rate": 100000,
+"duration_s": 20
+},
+"hash": "4c43c5d57be080c0631bb1e9788a3fb0",
+"column": false
+},
+{
+"func": "stims.makeEmpty",
+"args": {
+"rate": 100000,
+"duration_s": 20,
+"led_on_V": 10
+},
+"hash": "48c0cd287238050dbe56f27b0ecb7c25",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 0,
+"dur_pre_ms": 5000,
+"dur_step_ms": 10000,
+"dur_post_ms": 5000
+},
+"hash": "f395b9979457bb097468da9df5f31062",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 5,
+"dur_pre_ms": 5000,
+"dur_step_ms": 10000,
+"dur_post_ms": 5000
+},
+"hash": "7da6dec30cbb5c223560353ca84ab2d0",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 10,
+"dur_pre_ms": 5000,
+"dur_step_ms": 10000,
+"dur_post_ms": 5000
+},
+"hash": "28387b58ad28d993e9a262ab18c70871",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 10,
+"dur_pre_ms": 5000,
+"dur_step_ms": 30000,
+"dur_post_ms": 15000
+},
+"hash": "f0ce3d05114fba99846669cefa97df2f",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 0,
+"dur_pre_ms": 5000,
+"dur_step_ms": 10000,
+"dur_post_ms": 15000
+},
+"hash": "4628d77dcccd46e75ffb5671aafd019d",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 10,
+"dur_pre_ms": 5000,
+"dur_step_ms": 10000,
+"dur_post_ms": 15000
+},
+"hash": "b0982412bffeaced1b18260d3f17ff6a",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 0,
+"dur_pre_ms": 5000,
+"dur_step_ms": 5000,
+"dur_post_ms": 5000
+},
+"hash": "5b5c53ae8684bf7edb2639a9a851b038",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 2,
+"dur_pre_ms": 5000,
+"dur_step_ms": 5000,
+"dur_post_ms": 5000
+},
+"hash": "763a62750dcd8a6a70b1702c66558621",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 5,
+"dur_pre_ms": 5000,
+"dur_step_ms": 5000,
+"dur_post_ms": 5000
+},
+"hash": "6156838429b613c983eb03a1220add54",
+"column": false
+},
+{
+"func": "stims.makeEmpty",
+"args": {
+"rate": 100000,
+"duration_s": 5
+},
+"hash": "97d40f2e6037b25f289d4a793d3420eb",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 0,
+"dur_pre_ms": 5000,
+"dur_step_ms": 5000,
+"dur_post_ms": 15000
+},
+"hash": "7e4bbe958879279b65d2811ca44cca44",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 10,
+"dur_pre_ms": 5000,
+"dur_step_ms": 5000,
+"dur_post_ms": 15000
+},
+"hash": "62cedc00ff4085889848db5df0f589c5",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 8,
+"dur_pre_ms": 4000,
+"dur_step_ms": 4000,
+"dur_post_ms": 12000
+},
+"hash": "72ec06459fd3d7dbf6e5b7dd1a6a624a",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 0,
+"dur_pre_ms": 5000,
+"dur_step_ms": 10000,
+"dur_post_ms": 10000
+},
+"hash": "c46d087bd36cc61c9f7ce05b1a76e76d",
+"column": false
+},
+{
+"func": "stims.LEDSteps",
+"args": {
+"gen_rate": 100000,
+"step_vals_V": 5,
+"dur_pre_ms": 5000,
+"dur_step_ms": 10000,
+"dur_post_ms": 10000
+},
+"hash": "8f182535516b7ce1ed5ae2d931df174c",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 10,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 10000,
+"dur_post_ms": 4750
+},
+"hash": "c853fdaa1b140d088aa4ab875b8eae9d",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 10,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 500,
+"dur_post_ms": 4750
+},
+"hash": "1d9519e9ac3f8ab9f86a399b395037b2",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 0,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 500,
+"dur_post_ms": 4750
+},
+"hash": "a2b12910c9cb595c05366d0903e4a496",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 0,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 10000,
+"dur_post_ms": 4750
+},
+"hash": "6d46cf51fd1862747cd4c8dc05a6e6b5",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 0,
+"dur_hold_ms": 2000
+},
+"hash": "dd19f134307b67fdc4193182a3a4eb91",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 0,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 500,
+"dur_post_ms": 2000
+},
+"hash": "1d117d4e33840bb7c2cf6cab2d52d5e0",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 10,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 500,
+"dur_post_ms": 2000
+},
+"hash": "c44d3594122bbaf59780d306858df63c",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 10,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 10000,
+"dur_post_ms": 2000
+},
+"hash": "37d33a2f7862e12e8f6c0a6a948bce5c",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 0,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 10000,
+"dur_post_ms": 2000
+},
+"hash": "43466ba1329e1041a019b6f87d2bc92f",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 9.5,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 500,
+"dur_post_ms": 2000
+},
+"hash": "05a9321d55fe481be9d390e5c57964d8",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 10,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 5000,
+"dur_post_ms": 2500
+},
+"hash": "a532cb53fccb52edab787a1b3ff02edb",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 0,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 5000,
+"dur_post_ms": 2500
+},
+"hash": "f5f9a08c70ebf12a294bd706c7bff0da",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 10,
+"dur_pre_ms": 500,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 1000
+},
+"hash": "5f067259ca50ba4e6ba93d550d29c8ed",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 0,
+"dur_pre_ms": 500,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 1000
+},
+"hash": "bc630596078bcfe96e19f8a9ae988019",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 10,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 1000
+},
+"hash": "885cd8cb8eda24af57575d4dec79f5ae",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 0,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 1000
+},
+"hash": "bd279409fafd5965066fe4072d165d1d",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 10,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 10000,
+"dur_post_ms": 1000
+},
+"hash": "4b5160767db092024a076c224cb3d4df",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 0,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 10000,
+"dur_post_ms": 1000
+},
+"hash": "5b8c46a5ab2ed7248837b481b2ed40b7",
+"column": false
+},
+{
+"func": "stims.positionStairs",
+"args": {
+"gen_rate": 80000,
+"step_vals_um": [
+30,
+27,
+24,
+21,
+18,
+15,
+12,
+9,
+6,
+3,
+0,
+-3,
+-6,
+-9,
+-12,
+-15,
+-18,
+-21,
+-24,
+-27,
+-30
+],
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 250,
+"dur_post_ms": 2000
+},
+"hash": "3d43aa844c435e39f472b8781f0fd088",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+30,
+-30
+],
+"ramp_speed_um_s": 30,
+"dur_pre_ms": 1000,
+"dur_static_ms": 1000,
+"dur_post_ms": 2000
+},
+"hash": "9342dff6fd8355455203f55a5f6836b9",
+"column": false
+},
+{
+"func": "stims.positionStairs",
+"args": {
+"gen_rate": 80000,
+"step_vals_um": [
+-30,
+-27,
+-24,
+-21,
+-18,
+-15,
+-12,
+-9,
+-6,
+-3,
+0,
+3,
+6,
+9,
+12,
+15,
+18,
+21,
+24,
+27,
+30
+],
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 250,
+"dur_post_ms": 2000
+},
+"hash": "07510cbfc12f019809deed89b091ac73",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 0,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 2000
+},
+"hash": "67e1dbfa4e9c3b3c827f683cb97fe146",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -2.5,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 2000
+},
+"hash": "31e518a49e474a09274ecf60da8f367f",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 15,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 2000
+},
+"hash": "560a1f0dd67e998cdef9cb604164a96f",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -15,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 2000
+},
+"hash": "b852d5edc20231bec8495450b2096973",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 2.5,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 1000,
+"dur_post_ms": 2000
+},
+"hash": "aaaaa25c219eccd08e9c7b09fc4a9c68",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+-30,
+30
+],
+"ramp_speed_um_s": 30,
+"dur_pre_ms": 1000,
+"dur_static_ms": 1000,
+"dur_post_ms": 2000
+},
+"hash": "189f786380cdfa36513b2069d43d528c",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+30,
+-30
+],
+"ramp_speed_um_s": 3,
+"dur_pre_ms": 2500,
+"dur_static_ms": 2500,
+"dur_post_ms": 2500
+},
+"hash": "700f1b942c897954bb0dc345b0344b93",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -15,
+"dur_pre_ms": 2500,
+"dur_ramp_ms": 2500,
+"dur_post_ms": 2500
+},
+"hash": "ae180efcd9ed709083d83055e74ad7eb",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 15,
+"dur_pre_ms": 2500,
+"dur_ramp_ms": 2500,
+"dur_post_ms": 2500
+},
+"hash": "f96d15e65d46d492de49fe27540896bd",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+-30,
+30
+],
+"ramp_speed_um_s": 30,
+"dur_pre_ms": 2500,
+"dur_static_ms": 2500,
+"dur_post_ms": 2500
+},
+"hash": "d43d9fd63ef21da8299a7a787c8d603f",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -42.5,
+"dur_pre_ms": 2500,
+"dur_ramp_ms": 2500,
+"dur_post_ms": 2500
+},
+"hash": "b7e7bd722477268ca9c2ccbcbbd31b50",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 42.5,
+"dur_pre_ms": 2500,
+"dur_ramp_ms": 2500,
+"dur_post_ms": 2500
+},
+"hash": "a59e278f2ec250746bb16890a1ec6589",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -20,
+"dur_hold_ms": 2000
+},
+"hash": "e69c358014ad11d326cdec3f4fc57b7a",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 40,
+"dur_hold_ms": 2000
+},
+"hash": "10163f6a5988aec97049388c1918b6fe",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -10,
+"dur_hold_ms": 2000
+},
+"hash": "640c3fd5c07d2b69ee840fcd0b12e033",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 20,
+"dur_hold_ms": 2000
+},
+"hash": "5b62d56398125f584b0dcf5843a1181a",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -30,
+"dur_hold_ms": 2000
+},
+"hash": "3f3c0f6c720ab8ac4094aedf95723650",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 0,
+"dur_hold_ms": 500
+},
+"hash": "e3da70a1e2b5206a3798432dc34aea62",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 10,
+"dur_hold_ms": 2000
+},
+"hash": "cf46cb30fc2c40fe10de946d8df744f2",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -40,
+"dur_hold_ms": 2000
+},
+"hash": "faffc0c45a142d3df245bd1ba646696d",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 30,
+"dur_hold_ms": 2000
+},
+"hash": "c3d8e99d2e846b6ea786f47037db823a",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 40,
+"dur_hold_ms": 3000
+},
+"hash": "5d783336e0eeb47321f38881278f0928",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -20,
+"dur_hold_ms": 3000
+},
+"hash": "eb543ef397dc0f02fa42477fedc86999",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 30,
+"dur_hold_ms": 3000
+},
+"hash": "9eba8b951346ef95b974dc3e3ec18b30",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -30,
+"dur_hold_ms": 3000
+},
+"hash": "00dc2297b9d8a54c59f5b5b8edfc415d",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 0,
+"dur_hold_ms": 3000
+},
+"hash": "e27a4402c42e4ec0ea2ce0220124306a",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 10,
+"dur_hold_ms": 3000
+},
+"hash": "6800e540c1640c53027d0f6e1cd2194c",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -10,
+"dur_hold_ms": 3000
+},
+"hash": "9f06229de0ae2b5c478438b69946acb3",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -40,
+"dur_hold_ms": 3000
+},
+"hash": "a0d3ac257670e458b99ae4b340eef801",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 20,
+"dur_hold_ms": 3000
+},
+"hash": "dbccb89235ae4754e3cc366503455e16",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 15,
+"dur_hold_ms": 600
+},
+"hash": "bc1247b3539b8a8cd7a42553acfabe89",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -10,
+"dur_hold_ms": 600
+},
+"hash": "42ca7f973503d535a284387b8e355457",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_hold_ms": 600
+},
+"hash": "56685a30df7ddfa8c6c2f6c8bb129078",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -20,
+"dur_hold_ms": 600
+},
+"hash": "d6c091799ff4f0dd81919942b690ddb1",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 10,
+"dur_hold_ms": 600
+},
+"hash": "c663bfbe92975cd1148051fd0c9f0eab",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 20,
+"dur_hold_ms": 600
+},
+"hash": "4844f81026960b08ad9470d7b873078a",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 30,
+"dur_hold_ms": 600
+},
+"hash": "6c468459b64db5fa52dc09e80dbcd08c",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_hold_ms": 600
+},
+"hash": "d46a414e5b71e3efa3a69300cb45ace2",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -30,
+"dur_hold_ms": 600
+},
+"hash": "c5110ccd5c803b7af0e000defa1944c8",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -15,
+"dur_hold_ms": 600
+},
+"hash": "029565319adf7af0d771ee806cf3777c",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 0,
+"dur_hold_ms": 600
+},
+"hash": "ad7434cfbf797375f32b20fe0a8e6537",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 25,
+"dur_hold_ms": 600
+},
+"hash": "41466ae7a8b0f8a0999b11c31f737448",
+"column": false
+},
+{
+"func": "stims.positionHolds",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -25,
+"dur_hold_ms": 600
+},
+"hash": "97adab4cd13191783877753698f302b0",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "e3d29ffd65e52ad4a6519e15f166182b",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 10,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "a8deca65809f7ab7ed53fd8b682928bc",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "049234d049b33b8b20f86adf676dfbe5",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -10,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "349be592512dbaa4fd00be40c11203cb",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+-10,
+10
+],
+"ramp_speed_um_s": 750,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "24d87cd504ce0585b658e87c761d168e",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+10,
+-10
+],
+"ramp_speed_um_s": 750,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "6ec7ce06ab45a1e98ec8009e78c2b06e",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 1,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "30d2f053ccce2678c65956c3d482b81d",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+-30,
+30
+],
+"ramp_speed_um_s": 30,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 1000
+},
+"hash": "bf2250a869afa3eb3864d614de78e850",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+10,
+-10
+],
+"ramp_speed_um_s": 10,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 1000
+},
+"hash": "49704eee78012e2994268c3f3f2a60d5",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+30,
+-30
+],
+"ramp_speed_um_s": 30,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 1000
+},
+"hash": "ac2e7805b985a0882170dd2e313d3a12",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+-10,
+10
+],
+"ramp_speed_um_s": 10,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 1000
+},
+"hash": "38bb4c7a2fa896e49b149a1ae8eba895",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -15,
+"final_pos_um": -12.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "5257c16dd5e1410f4e6c2328f94538e0",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 0,
+"final_pos_um": -15,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "1213948e82373cb75d32ef3a26a7394a",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -7.5,
+"final_pos_um": -10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "ffa7b4c4085cd43c35ba73087e06f524",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 15,
+"final_pos_um": 12.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "600ef3349a613570e433413e86586e05",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -5,
+"final_pos_um": -7.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "ad4021ddce345aff4350f7a8ab00d119",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -7.5,
+"final_pos_um": -5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "5086299f7eef108da175c3c337f903c1",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 7.5,
+"final_pos_um": 10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "fe4ee2893decc35c50fc25f315556934",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -15,
+"final_pos_um": 0,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "9b5506cb82d3414b1902e8e34df2da1a",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 0,
+"final_pos_um": -2.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "b20af736d38650774835a04df0b1d773",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -2.5,
+"final_pos_um": -5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "f37749d095e210f8c4e6a266c4aff3a5",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -12.5,
+"final_pos_um": -15,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "fd1af39b05c17b2386b9409a30d39a33",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -5,
+"final_pos_um": -2.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "d4db6e2e0799735480a242d5293ca28c",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 10,
+"final_pos_um": 12.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "2c558f4c54e61271c7605bd313b0f1c8",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 2.5,
+"final_pos_um": 0,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "fb24132f1005240b82dd85e8452ba9c3",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -10,
+"final_pos_um": -7.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "093436d14d497c961d161e9a4f963f8a",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 12.5,
+"final_pos_um": 15,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "0d13ef2b2ac59df117796655fc5892c4",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 5,
+"final_pos_um": 7.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "e1656c2f9208a2c3926bd7c9cd32a2da",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 0,
+"final_pos_um": 2.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "aaa4e0f5593629feb64d4e3698292384",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 15,
+"final_pos_um": 0,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "4d50fef89c2045151c1d7c5fc849a9ef",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 7.5,
+"final_pos_um": 5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "e7405d167cb7c68ea8578cddcd57a245",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -2.5,
+"final_pos_um": 0,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "17a31adb6c02e10c9aafd295ecd65c55",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 0,
+"final_pos_um": 15,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "47c6d1620c86646aca8d453a0bd64b7f",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 12.5,
+"final_pos_um": 10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "7ce383df23e88146472ce805b79d7a79",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -10,
+"final_pos_um": -12.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "d7a8171e282ab663d8c7e268d19d8894",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -12.5,
+"final_pos_um": -10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "7e39e0e0d3ba4e84468e1636851279c8",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 10,
+"final_pos_um": 7.5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "1e652aac5d009e75f5f60366390d6bb2",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+-10,
+10
+],
+"ramp_speed_um_s": 500,
+"dur_pre_ms": 1500,
+"dur_static_ms": 1500,
+"dur_post_ms": 1500,
+"lfp_hz": 2500
+},
+"hash": "328922ae0951238cc2571dc4e010fc78",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 1500,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1500,
+"lfp_hz": 2500
+},
+"hash": "42c86f2d17d8b51551908bf12156988a",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 10,
+"dur_pre_ms": 1500,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1500,
+"lfp_hz": 2500
+},
+"hash": "2d2f16f3faba592f38da4e7b89d6097a",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -10,
+"dur_pre_ms": 1500,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1500,
+"lfp_hz": 2500
+},
+"hash": "13948bc1bebdd43e5dbe663ffdcaf661",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 1500,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1500,
+"lfp_hz": 2500
+},
+"hash": "a56050322a7ec8e0b27efe60bc22eced",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+10,
+-10
+],
+"ramp_speed_um_s": 500,
+"dur_pre_ms": 1500,
+"dur_static_ms": 1500,
+"dur_post_ms": 1500,
+"lfp_hz": 2500
+},
+"hash": "591f7f8758aec56df07191777ec48282",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 15,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 1000
+},
+"hash": "a4677bea5ad7f27ff693d048f1ec1925",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -15,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 1000
+},
+"hash": "1db0267177f2ae26ba3a79afb93b3c38",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "c44f30b6205c61a3d9d7c9e0e65c3a1f",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -10,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 1000
+},
+"hash": "d7141c43a216fe5f960b4fd79daa7da4",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "881a5cb68949905ca2c004757094d9ce",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 10,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 1000
+},
+"hash": "1c5900cf158bde258726bbd57cd11215",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -1,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "140592a035efbb2feaefe59a20ff51fc",
+"column": false
+},
+{
+"func": "stims.positionStairs",
+"args": {
+"gen_rate": 80000,
+"step_vals_um": [
+-5,
+-3,
+-1,
+1,
+3,
+5
+],
+"dur_pre_ms": 1500,
+"dur_ramp_ms": 500,
+"dur_post_ms": 1500,
+"lfp_hz": 2500
+},
+"hash": "cd82e5851aa7d497225ae6ab86220500",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+-5,
+5
+],
+"ramp_speed_um_s": 500,
+"dur_pre_ms": 1500,
+"dur_static_ms": 1500,
+"dur_post_ms": 1500,
+"lfp_hz": 2500
+},
+"hash": "2497f30931c1e78fa52fc91e4e6b4147",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 0.5,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "90bf3d65d0b1f9e84c4ae3dc2b6fd4b5",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -0.5,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "7d0479821abce7becbabe27509f852e1",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+5,
+-5
+],
+"ramp_speed_um_s": 750,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "536607bc898f8cf33a29bbc9ca408acb",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+-5,
+5
+],
+"ramp_speed_um_s": 750,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "b7908cf5d74ab30b9aacb11ae61d1d11",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2002,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1998,
+"lfp_hz": 2500
+},
+"hash": "5c07f34590db7b76bcceb9da0e068034",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2016,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1984,
+"lfp_hz": 2500
+},
+"hash": "e19370a09d44cb6387b0d98fba8c055f",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2008,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1992,
+"lfp_hz": 2500
+},
+"hash": "a77aa0109e18855ed544a65d454f2878",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2002,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1998,
+"lfp_hz": 2500
+},
+"hash": "d1a0cad6a04870e74d6e6df7a9197687",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2018,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1982,
+"lfp_hz": 2500
+},
+"hash": "1b62cced251a06c994d555367c70cd6c",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2012,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1988,
+"lfp_hz": 2500
+},
+"hash": "7851094a91cd394956692ef624aa5aaa",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2004,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1996,
+"lfp_hz": 2500
+},
+"hash": "9d4c1d9284da6c9e40efbbe832be4d92",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2004,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1996,
+"lfp_hz": 2500
+},
+"hash": "77378d77adf85d9039961de097f93635",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2010,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1990,
+"lfp_hz": 2500
+},
+"hash": "e1fe45d03fabd4a7e6d57b2aa6133b1b",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2012,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1988,
+"lfp_hz": 2500
+},
+"hash": "3e22930a61dcfa02e7e15467035ba75b",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2014,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1986,
+"lfp_hz": 2500
+},
+"hash": "5808ea174b1532448e15e1e626a39697",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2008,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1992,
+"lfp_hz": 2500
+},
+"hash": "3a558ea2bb5b53670aa59da9ecf25356",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2016,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1984,
+"lfp_hz": 2500
+},
+"hash": "8723b59024497e7602a68ae419d566c1",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2018,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1982,
+"lfp_hz": 2500
+},
+"hash": "d84f0e70f1f802e06a00bea0a7f71df0",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2014,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1986,
+"lfp_hz": 2500
+},
+"hash": "9b03cf5c75abfccb4cd5e1444f11f2ae",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2006,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1994,
+"lfp_hz": 2500
+},
+"hash": "c85ea8408421188f44926a5ef65b1c8e",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2010,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1990,
+"lfp_hz": 2500
+},
+"hash": "f9bae2b910ffafcc9ca85517413919b8",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2006,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1994,
+"lfp_hz": 2500
+},
+"hash": "96c874766c938dae5eaaa9ef3128a3a4",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 0,
+"final_pos_um": 5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "2fc76d99d3dd310d9ed3437c1373c890",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 5,
+"final_pos_um": 0,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "a53069605215a29475906baef5ce16ad",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -5,
+"final_pos_um": -10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "ce7b7e80277a28f3f8309872c1d4f97f",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 5,
+"final_pos_um": 10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "a0a6d3738e8976a52391acd7e6277d2e",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 0,
+"final_pos_um": -5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "b226b4491d0f70e60f45e1354929499c",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -5,
+"final_pos_um": 0,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "c29d060e9f2080cda13e7e8bebe700e8",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -10,
+"final_pos_um": -15,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "a5e30e66274cb6a357571f9d35c12e1b",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 15,
+"final_pos_um": 10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "4ca88dcc8334d357965202ef99cb5c80",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -10,
+"final_pos_um": -5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "fe214552eb2d8cd2d1a739b7aaf88666",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 10,
+"final_pos_um": 15,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "de106a9ae1077422d0c2795acc97d356",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 10,
+"final_pos_um": 5,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "c8677956f1271b1dd01a892edce2d96b",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -15,
+"final_pos_um": -10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "df5804f62ddbe3d46bbbeac17edee4c6",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 0,
+"final_pos_um": 10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "8aae4d2747c21f43666211aa489b19fe",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -30,
+"final_pos_um": 0,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "34263076118fdf29a296de5e26b7b8b2",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 30,
+"final_pos_um": 20,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "5afec3854718886de32c13252d2e7718",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 0,
+"final_pos_um": 30,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "3c1c0774aca42d9fed5e0b302d58ac2f",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -20,
+"final_pos_um": -10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "788a7fe6f90f8e4e74775368fab4e840",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 20,
+"final_pos_um": 10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "c03b6ae900b0b69a95393eb3e05d31fb",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 30,
+"final_pos_um": 0,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "17bf77c2c6b6776947a3bcb20780ef78",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 20,
+"final_pos_um": 30,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "97a90c5b12c7dc07452f24783cffef9b",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -10,
+"final_pos_um": 0,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "04cc659586db66709f17b46fb5e7191e",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -10,
+"final_pos_um": -20,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "d416b55b3e3afb32115aa7b27b6ed760",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 10,
+"final_pos_um": 0,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "81dbbafc7fe5974ffa521e6de3e8c3c6",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 0,
+"final_pos_um": -10,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "5947f21b82faaa1350063a1fdb66c782",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -20,
+"final_pos_um": -30,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "deab577f0259fd458b56df28c6137e19",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 0,
+"final_pos_um": -30,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "3bca1e5ec015fad63e2e24140f9db2f5",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": -30,
+"final_pos_um": -20,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "e186e8c5ef66c0e108e62964921debca",
+"column": false
+},
+{
+"func": "stims.positionStepAndHold",
+"args": {
+"gen_rate": 80000,
+"inital_pos_um": 10,
+"final_pos_um": 20,
+"dur_hold_ms": 400,
+"lfp_hz": 300
+},
+"hash": "4f307c81c02fa36ace7cc96e6da65ba4",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2007,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1993,
+"lfp_hz": 2500
+},
+"hash": "d054248f23b6a7981d5575658296d461",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2001,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1999,
+"lfp_hz": 2500
+},
+"hash": "3b52ae96708ff0a8bf0ff799d088149c",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2003,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1997,
+"lfp_hz": 2500
+},
+"hash": "6fe4fb5177f3a894a404cbc5b53d1112",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2003,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1997,
+"lfp_hz": 2500
+},
+"hash": "7e22ba83b1e35452c66e3e86d61b73a4",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2007,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1993,
+"lfp_hz": 2500
+},
+"hash": "b42d972f31149130986a42184411ae4b",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2001,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1999,
+"lfp_hz": 2500
+},
+"hash": "bcba106ef8d2014b52a231c8009adbc2",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2005,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1995,
+"lfp_hz": 2500
+},
+"hash": "0bf84e11c020cf2f0e151504a06a37a3",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2009,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1991,
+"lfp_hz": 2500
+},
+"hash": "82aa0df54718c59b1d4b4c36373cf240",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2009,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1991,
+"lfp_hz": 2500
+},
+"hash": "c6952aec7c25a5e66fdeab1ed3bf49c8",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2005,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1995,
+"lfp_hz": 2500
+},
+"hash": "bd8ecd7e4a47996b6db82f63cfee0bfc",
+"column": false
+},
+{
+"func": "stims.positionStairs",
+"args": {
+"gen_rate": 80000,
+"step_vals_um": [
+-10,
+-8,
+-6,
+-4,
+-2,
+0,
+2,
+4,
+6,
+8,
+10
+],
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 500,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "aa369cb7eb0fbc69e80c71c72c4ac86e",
+"column": false
+},
+{
+"func": "stims.positionStairs",
+"args": {
+"gen_rate": 80000,
+"step_vals_um": [
+10,
+8,
+6,
+4,
+2,
+0,
+-2,
+-4,
+-6,
+-8,
+-10
+],
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 500,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "bac5868760f0f3fd63348b1bcdb3254d",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+-10,
+10
+],
+"ramp_speed_um_s": 500,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "ee3d1823e7a8b6f7057446a7b670dbbc",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 0.5,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "766686a1db7107f7404ef27546eeaf4b",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+10,
+-10
+],
+"ramp_speed_um_s": 500,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "3190acdc22d6ae6dc6c6411bb8343d61",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -0.5,
+"dur_pre_ms": 2000,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "997ebb38f0555aaee2a920cce1e4826a",
+"column": false
+},
+{
+"func": "stims.positionStairs",
+"args": {
+"gen_rate": 80000,
+"step_vals_um": [
+0,
+-2,
+-4,
+-6,
+-8,
+-10,
+-12,
+-10,
+-8,
+-6,
+-4,
+-2,
+0,
+2,
+4,
+6,
+8,
+10,
+12,
+10,
+8,
+6,
+4,
+2,
+0
+],
+"dur_pre_ms": 600,
+"dur_ramp_ms": 600,
+"dur_post_ms": 600,
+"lfp_hz": 2000
+},
+"hash": "febddffc952519830098fa4b85d37514",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2028,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1972,
+"lfp_hz": 2500
+},
+"hash": "62d07673e7d2f80159369aabbf03d989",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2036,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1964,
+"lfp_hz": 2500
+},
+"hash": "54e45992f13ed23a60f6c9f6594702d3",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2020,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1980,
+"lfp_hz": 2500
+},
+"hash": "f09ae34815178041cdc5b3c37d45996c",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2024,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1976,
+"lfp_hz": 2500
+},
+"hash": "4449de258f6268b3e30f3294c9e95af7",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2032,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1968,
+"lfp_hz": 2500
+},
+"hash": "b5e09eec0bf8c840b333d7dc4797cefb",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2024,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1976,
+"lfp_hz": 2500
+},
+"hash": "b8cb5ab92934656a222b620625a65d75",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2032,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1968,
+"lfp_hz": 2500
+},
+"hash": "b441d0695b3565739222f5f93cfeeda4",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2036,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1964,
+"lfp_hz": 2500
+},
+"hash": "fb17dd2541b4f9c41f37587921f66048",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2020,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1980,
+"lfp_hz": 2500
+},
+"hash": "c4f1f6617b53e4979439d8f6935dec25",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2028,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1972,
+"lfp_hz": 2500
+},
+"hash": "db8734eedab1fcbb2100c4cc0a7d1e7d",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+7.5,
+-7.5
+],
+"ramp_speed_um_s": 750,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "08e0cdaa5abad9433ac24081fc882de6",
+"column": false
+},
+{
+"func": "stims.positionStepRampStep",
+"args": {
+"gen_rate": 80000,
+"ramp_steps_um": [
+-7.5,
+7.5
+],
+"ramp_speed_um_s": 750,
+"dur_pre_ms": 2000,
+"dur_static_ms": 2000,
+"dur_post_ms": 2000,
+"lfp_hz": 2500
+},
+"hash": "9d194001119e3410c9a13ce12d883d79",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2013,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1987,
+"lfp_hz": 2500
+},
+"hash": "5e454e022489c81d0762c5c9bf5a341c",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": -5,
+"dur_pre_ms": 2011,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1989,
+"lfp_hz": 2500
+},
+"hash": "6407d361f54c8b131cf34d90cab766a7",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2011,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1989,
+"lfp_hz": 2500
+},
+"hash": "571f2957e7396e4cf3d693a537e45f1b",
+"column": false
+},
+{
+"func": "stims.positionSteps",
+"args": {
+"gen_rate": 80000,
+"step_val_um": 5,
+"dur_pre_ms": 2013,
+"dur_ramp_ms": 1500,
+"dur_post_ms": 1987,
+"lfp_hz": 2500
+},
+"hash": "491803c8f62d76661caf085b3e97abfc",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 0,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 500,
+"dur_post_ms": 2750
+},
+"hash": "92fc66021b58e3e5bc6efc80f175aa36",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 10,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 500,
+"dur_post_ms": 2750
+},
+"hash": "417ab2b19f5f92ed065e3ffd42b893d7",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 0,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 10000,
+"dur_post_ms": 2750
+},
+"hash": "de4a0785ec6d4c2b2ab7cf90bf4ac27f",
+"column": false
+},
+{
+"func": "stims.makeLEDAndShutterPMTSteps",
+"args": {
+"gen_rate": 80000,
+"step_vals_V": 10,
+"dur_pre_ms": 1000,
+"dur_ramp_ms": 10000,
+"dur_post_ms": 2750
+},
+"hash": "80e1055298a4a0ca7729b567f97ddbc8",
+"column": false
+}
+]
